@@ -1,15 +1,17 @@
 package com.naumov.appconvertfile
 
+import android.view.View
 import moxy.MvpPresenter
 
-class MainPresenter:MvpPresenter<MainView>() {
+class MainPresenter(private val view:MainView) {
 
-    override fun onFirstViewAttach() {
-        super.onFirstViewAttach()
-        viewState.initView()
+    private val conversionFile = ConversionFileImpl()
+
+    fun initView(){
+        view.initView()
     }
 
-
-
-
+    fun pressButtonConvertFile() {
+        view.setImage("ddd")
+    }
 }

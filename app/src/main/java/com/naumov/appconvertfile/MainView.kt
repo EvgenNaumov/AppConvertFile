@@ -2,7 +2,7 @@ package com.naumov.appconvertfile
 
 import moxy.MvpView
 
-interface MainView:MvpView {
+interface MainView {
     fun initView()
-    fun pressButtonConvertFile()
+    fun setImage(path:String)
 }
