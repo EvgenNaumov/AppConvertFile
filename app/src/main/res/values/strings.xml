@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AppConvertFile</string>
+    <string name="convert_file">Convert file</string>
 </resources>
