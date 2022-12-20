@@ -17,23 +17,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:layout_margin="4dp"
             android:text="@string/convert_file"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
 
         <ImageView
             android:id="@+id/source_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
-            android:layout_weight="1"/>
+            android:layout_margin="4dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/source_image_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <ImageView
             android:id="@+id/destination_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="bottom"
+            android:layout_margin="4dp"
+            android:layout_weight="1" />
 
+        <TextView
+            android:id="@+id/destination_image_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 
